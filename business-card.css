@@ -1,0 +1,125 @@
+.card-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.business-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.business-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.avatar {
+    margin: 0 auto 1rem;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid rgba(255, 255, 255, 0.3);
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.position {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.info-item:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.label {
+    font-weight: 600;
+    color: #555;
+}
+
+.value {
+    color: #333;
+    text-align: right;
+}
+
+.card-footer {
+    padding: 0 2rem 2rem;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.social-link {
+    display: inline-block;
+    background-color: #f0f0f0;
+    color: #ff6b6b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.social-link:hover {
+    background-color: #ff6b6b;
+    color: white;
+    transform: translateY(-3px);
+}
+
+.back-button {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #5a6268;
+}
